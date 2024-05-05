@@ -32,8 +32,4 @@
     <ProjectReference Include="..\Corona.Infrastructure\Corona.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Implementations\Repositories\IEntityRepository\" />
-  </ItemGroup>
-
 </Project>

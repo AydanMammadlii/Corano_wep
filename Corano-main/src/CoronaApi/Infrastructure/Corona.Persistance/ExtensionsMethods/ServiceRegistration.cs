@@ -1,7 +1,9 @@
-﻿using Corona.Application.Abstraction.Services;
+﻿using Corona.Application.Abstraction.Repositories.IEntityRepository;
+using Corona.Application.Abstraction.Services;
 using Corona.Application.Validators.SliderValidators;
 using Corona.Domain.Entities;
 using Corona.Persistance.Context;
+using Corona.Persistance.Implementations.Repositories.IEntityRepository;
 using Corona.Persistance.Implementations.Services;
 using Corona.Persistance.MapperProfiles;
 using FluentValidation;
@@ -56,15 +58,16 @@ public static class ServiceRegistration
         services.AddFluentValidationAutoValidation();
         services.AddFluentValidationClientsideAdapters();
         services.AddValidatorsFromAssemblyContaining<SliderGetDtoValidator>();
-
     }
 
     private static void AddReadRepositories(this IServiceCollection services)
     {
+        services.AddScoped<ISliderReadRepository, SliderReadRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
     {
+        services.AddScoped<ISliderWriteRepository, SliderWriteRepository>();
     }
 
 }
