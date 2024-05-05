@@ -1,0 +1,49 @@
+﻿@using Corona.MVC.ViewModel.ProductType
+@model ProductTypeCreateViewModel
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<div class="container mt-5">
+    <h2>Product Type Form</h2>
+    <form id="testimonialForm">
+        <div class="form-group">
+            <label for="ImageUrl">Image</label>
+            <input type="file" class="form-control-file" id="ImageUrl" asp-for="ImageUrl">
+        </div>
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" id="Name" asp-for="Title" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="Description">Description</label>
+            <textarea class="form-control" id="Description" asp-for="Description" rows="3" placeholder="Enter description"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Post</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#testimonialForm').on('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: 'https://localhost:7295/api/ProductTypes/CreateProductType',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function () {
+                    window.location.href = 'https://localhost:7186/Admin/ProductType';
+                },
+                error: function () {
+                    window.location.href = 'https://localhost:7186/Admin/ProductType';
+                }
+            });
+        });
+    });
+</script>

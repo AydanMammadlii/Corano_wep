@@ -1,0 +1,116 @@
+﻿@using Corona.MVC.ViewModel.Product
+@model ProductViewModel
+
+<div class="product-details">
+    <h3 class="product-title">Product Name: @Model.Title</h3>
+    <p class="product-description">Product Description: @Model.Description</p>
+    <p class="product-stock">Product Stock Count: @Model.StockCount</p>
+    <p class="product-price">Product Price: @Model.Price</p>
+    <p class="product-size">Product Size: @Model.Size</p>
+    <p class="product-color">Product Color: @Model.Color</p>
+    <div class="product-images">
+        <h3>Product Image:</h3>
+        <ul>
+            @foreach (var item in Model.GetProductsImages)
+            {
+                <li><img src="@item.ImageUrl" alt="Product Image" /></li>
+            }
+        </ul>
+    </div>
+    <div class="product-category">
+        <h1>Product Category</h1>
+        <h4>Category Name: @ViewBag.Category.Title</h4>
+    </div>
+    <div class="product-brand">
+        <h1>Product Brand</h1>
+        <h4>Brand Name: @ViewBag.Category.BrandName</h4>
+    </div>
+    <div class="product-type">
+        <h1>Product Type</h1>
+        <h4>Product Type Name: @ViewBag.ProductType.Title</h4>
+        <img src="@ViewBag.ProductType.ImageUrl" alt="Product Type Image" />
+    </div>
+</div>
+
+
+<style>
+    .product-details {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .product-details h3,
+        .product-details h1,
+        .product-details h4 {
+            color: #333;
+        }
+
+    .product-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .product-description,
+    .product-stock,
+    .product-price,
+    .product-size,
+    .product-color {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .product-images {
+        margin-top: 20px;
+    }
+
+        .product-images ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .product-images li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .product-images img {
+            max-width: 100px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+    .product-category,
+    .product-brand,
+    .product-type {
+        margin-top: 30px;
+    }
+
+        .product-category h1,
+        .product-brand h1,
+        .product-type h1 {
+            font-size: 22px;
+            color: #555;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .product-category h4,
+        .product-brand h4,
+        .product-type h4 {
+            font-size: 18px;
+            color: #777;
+        }
+
+        .product-type img {
+            max-width: 200px;
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+</style>

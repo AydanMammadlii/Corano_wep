@@ -1,0 +1,81 @@
+﻿@using Corona.MVC.ViewModel.Product
+@model ProductCreateViewModel
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<div class="container mt-5">
+    <h2>Category Form</h2>
+    <form id="BrandForm">
+        <div class="form-group">
+            <label for="Title">Title</label>
+            <input type="text" class="form-control" id="Title" asp-for="Title" placeholder="Enter your Title">
+        </div>
+        <div class="form-group">
+            <label for="Description">Description</label>
+            <input type="text" class="form-control" id="Description" asp-for="Description" placeholder="Enter your Description">
+        </div>
+        <div class="form-group">
+            <label for="Size">Size</label>
+            <input type="text" class="form-control" id="Size" asp-for="Size" placeholder="Enter your Size">
+        </div>
+        <div class="form-group">
+            <label for="Color">Color</label>
+            <input type="text" class="form-control" id="Color" asp-for="Color" placeholder="Enter your Color">
+        </div>
+        <div class="form-group">
+            <label for="StockCount">Stock Count</label>
+            <input type="number" class="form-control" id="StockCount" asp-for="StockCount" placeholder="Enter your Stock Count">
+        </div>
+        <div class="form-group">
+            <label for="Price">Price</label>
+            <input type="number" step="0.01" class="form-control" id="Price" asp-for="Price" placeholder="Enter your Price">
+        </div>
+        <label>Product Images</label>
+        <input type="file" asp-for="ProductsImages" class="form-control-file" multiple />
+        <div class="form-group">
+            <label for="CategoryId">Select Category</label>
+            <select class="form-control" id="CategoryId" asp-for="CategoryId">
+                @foreach (var item in ViewBag.Category)
+                {
+                    <option value="@item.Id">@item.Title</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="ProductTypeId">Select Product Type</label>
+            <select class="form-control" id="ProductTypeId" asp-for="ProductTypeId">
+                @foreach (var item in ViewBag.ProductType)
+                {
+                    <option value="@item.Id">@item.Title</option>
+                }
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Post</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#BrandForm').on('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: 'https://localhost:7295/api/Products/CreateProduct',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function () {
+                    window.location.href = '@Url.Action("Index")';
+                },
+                error: function () {
+                    window.location.href = 'https://localhost:7186/Admin/category';
+                }
+            });
+        });
+    });
+</script>

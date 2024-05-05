@@ -1,0 +1,527 @@
+﻿@using Corona.MVC.ViewModel.Home
+@using System.Linq
+@model HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main>
+    <!-- hero slider area start -->
+    <section class="slider-area">
+        <div class="hero-slider-active slick-arrow-style slick-arrow-style_hero slick-dot-style">
+
+            @using System.Linq
+
+            @foreach (var slider in ViewBag.Sliders)
+            {
+                <div class="hero-single-slide hero-overlay">
+                    <div class="hero-slider-item bg-img" data-bg="@slider.Image">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="hero-slider-content slide-1">
+                                        <h2 class="slide-title">@slider.Name</h2>
+                                        <h4 class="slide-desc">@slider.Description</h4>
+                                        <a href="shop.html" class="btn btn-hero">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+
+
+
+
+        </div>
+    </section>
+    <!-- hero slider area end -->
+    <!-- twitter feed area start -->
+    <div class="twitter-feed">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="twitter-feed-content text-center">
+                        <p>Check out "Corano - Multipurpose eCommerce Bootstrap 5 template" on #Envato by <a href="#">Corano</a> #Themeforest </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- twitter feed area end -->
+    <!-- service policy area start -->
+    <div class="service-policy section-padding">
+        <div class="container">
+            <div class="row mtn-30">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="policy-item">
+                        <div class="policy-icon">
+                            <i class="pe-7s-plane"></i>
+                        </div>
+                        <div class="policy-content">
+                            <h6>Free Shipping</h6>
+                            <p>Free shipping all order</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="policy-item">
+                        <div class="policy-icon">
+                            <i class="pe-7s-help2"></i>
+                        </div>
+                        <div class="policy-content">
+                            <h6>Support 24/7</h6>
+                            <p>Support 24 hours a day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="policy-item">
+                        <div class="policy-icon">
+                            <i class="pe-7s-back"></i>
+                        </div>
+                        <div class="policy-content">
+                            <h6>Money Return</h6>
+                            <p>30 days for free return</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="policy-item">
+                        <div class="policy-icon">
+                            <i class="pe-7s-credit"></i>
+                        </div>
+                        <div class="policy-content">
+                            <h6>100% Payment Secure</h6>
+                            <p>We ensure secure payment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service policy area end -->
+    <!-- banner statistics area start -->
+    <div class="banner-statistics-area">
+        <div class="container">
+            <div class="row row-20 mtn-20">
+                @foreach (var productType in ViewBag.ProductTypes)
+                {
+                    <div class="col-sm-6">
+                        <figure class="banner-statistics mt-20">
+                            <a href="#">
+                                <img src="@productType.ImageUrl" alt="product banner">
+                            </a>
+                            <div class="banner-content text-right">
+                                <h5 class="banner-text1">@productType.Title</h5>
+                                <h2 class="banner-text2">@productType.Description</h2>
+                                <a href="shop.html" class="btn btn-text">Shop Now</a>
+                            </div>
+                        </figure>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+    <!-- banner statistics area end -->
+    <!-- product area start -->
+    <section class="related-products section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- section title start -->
+                    <div class="section-title text-center">
+                        <h2 class="title">Newest Products</h2>
+                        <p class="sub-title">Add related products to weekly lineup</p>
+                    </div>
+                    <!-- section title start -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-carousel-4 slick-row-10 slick-arrow-style">
+                        @foreach (var item in Model.ProductViewModels)
+                        {
+                            <div class="product-item">
+                                <figure class="product-thumb">
+                                    <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@item.Id">
+                                        <img class="pri-img" src="@item.GetProductsImages?.FirstOrDefault()?.ImageUrl" alt="product">
+                                        <img class="sec-img" src="@item.GetProductsImages?.LastOrDefault()?.ImageUrl" alt="product">
+                                    </a>
+
+                                    <div class="product-badge">
+                                        <div class="product-label new">
+                                            <span>new</span>
+                                        </div>
+                                        <div class="product-label discount">
+                                            <span>10%</span>
+                                        </div>
+                                    </div>
+                                    <div class="button-group">
+                                        <a href="compare.html" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to Compare"><i class="pe-7s-refresh-2"></i></a>
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick_view"><span data-bs-toggle="tooltip" data-bs-placement="left" title="Quick View"><i class="pe-7s-search"></i></span></a>
+                                    </div>
+                                </figure>
+                                <div class="product-caption text-center">
+                                    <div class="product-identity">
+                                        <p class="manufacturer-name"><a href="product-details.html">Gold</a></p>
+                                    </div>
+                                    <ul class="color-categories">
+                                        <li>
+                                            <a class="c-lightblue" href="#" title="LightSteelblue"></a>
+                                        </li>
+                                        <li>
+                                            <a class="c-darktan" href="#" title="Darktan"></a>
+                                        </li>
+                                        <li>
+                                            <a class="c-grey" href="#" title="Grey"></a>
+                                        </li>
+                                        <li>
+                                            <a class="c-brown" href="#" title="Brown"></a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="product-name">
+                                        <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@item.Id">@item.Title</a>
+                                    </h6>
+                                    <div class="price-box">
+                                        <span class="price-regular">@item.Price</span>
+                                        <span class="price-old"><del>$70.00</del></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product area end -->
+    <!-- product banner statistics area start -->
+    <section class="product-banner-statistics">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="product-banner-carousel slick-row-10">
+                        <!-- banner single slide start -->
+                        <div class="banner-slide-item">
+                            <figure class="banner-statistics">
+                                <a href="#">
+                                    <img src="assets/img/banner/img1-middle.jpg" alt="product banner">
+                                </a>
+                                <div class="banner-content banner-content_style2">
+                                    <h5 class="banner-text3"><a href="#">BRACELATES</a></h5>
+                                </div>
+                            </figure>
+                        </div>
+                        <!-- banner single slide start -->
+                        <!-- banner single slide start -->
+                        <div class="banner-slide-item">
+                            <figure class="banner-statistics">
+                                <a href="#">
+                                    <img src="assets/img/banner/img2-middle.jpg" alt="product banner">
+                                </a>
+                                <div class="banner-content banner-content_style2">
+                                    <h5 class="banner-text3"><a href="#">EARRINGS</a></h5>
+                                </div>
+                            </figure>
+                        </div>
+                        <!-- banner single slide start -->
+                        <!-- banner single slide start -->
+                        <div class="banner-slide-item">
+                            <figure class="banner-statistics">
+                                <a href="#">
+                                    <img src="assets/img/banner/img3-middle.jpg" alt="product banner">
+                                </a>
+                                <div class="banner-content banner-content_style2">
+                                    <h5 class="banner-text3"><a href="#">NECJLACES</a></h5>
+                                </div>
+                            </figure>
+                        </div>
+                        <!-- banner single slide start -->
+                        <!-- banner single slide start -->
+                        <div class="banner-slide-item">
+                            <figure class="banner-statistics">
+                                <a href="#">
+                                    <img src="assets/img/banner/img4-middle.jpg" alt="product banner">
+                                </a>
+                                <div class="banner-content banner-content_style2">
+                                    <h5 class="banner-text3"><a href="#">RINGS</a></h5>
+                                </div>
+                            </figure>
+                        </div>
+                        <!-- banner single slide start -->
+                        <!-- banner single slide start -->
+                        <div class="banner-slide-item">
+                            <figure class="banner-statistics">
+                                <a href="#">
+                                    <img src="assets/img/banner/img5-middle.jpg" alt="product banner">
+                                </a>
+                                <div class="banner-content banner-content_style2">
+                                    <h5 class="banner-text3"><a href="#">PEARLS</a></h5>
+                                </div>
+                            </figure>
+                        </div>
+                        <!-- banner single slide start -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product banner statistics area end -->
+    <!-- testimonial area start -->
+    <section class="testimonial-area section-padding bg-img" data-bg="assets/img/testimonial/testimonials-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- section title start -->
+                    <div class="section-title text-center">
+                        <h2 class="title">testimonials</h2>
+                        <p class="sub-title">What they say</p>
+                    </div>
+                    <!-- section title start -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonial-thumb-wrapper">
+                        <div class="testimonial-thumb-carousel">
+                            @foreach (var item in ViewBag.Testimonails)
+                            {
+                                <div class="testimonial-thumb">
+                                    <img src="@item.ImageUrl" alt="testimonial-thumb">
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                    <div class="testimonial-content-wrapper">
+                        <div class="testimonial-content-carousel">
+                            @foreach (var item in ViewBag.Testimonails)
+                            {
+
+                                <div class="testimonial-content">
+                                    <p>@item.Description</p>
+                                    <div class="ratings">
+                                        <span><i class="fa fa-star-o"></i></span>
+                                        <span><i class="fa fa-star-o"></i></span>
+                                        <span><i class="fa fa-star-o"></i></span>
+                                        <span><i class="fa fa-star-o"></i></span>
+                                        <span><i class="fa fa-star-o"></i></span>
+                                    </div>
+                                    <h5 class="testimonial-author">@item.Name</h5>
+                                </div>
+
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial area end -->
+    <!-- group product start -->
+    <section class="group-product-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="group-product-banner">
+                        <figure class="banner-statistics">
+                            <a asp-controller="Shop">
+                                <img src="assets/img/banner/img-bottom-banner.jpg" alt="product banner">
+                            </a>
+                            <div class="banner-content banner-content_style3 text-center">
+                                <h6 class="banner-text1">BEAUTIFUL</h6>
+                                <h2 class="banner-text2">Wedding Rings</h2>
+                                <a asp-controller="Shop" class="btn btn-text">Shop Now</a>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories-group-wrapper">
+                        <!-- section title start -->
+                        <div class="section-title-append">
+                            <h4>product</h4>
+                            <div class="slick-append"></div>
+                        </div>
+                        <!-- section title start -->
+                        <!-- group list carousel start -->
+                        <div class="group-list-item-wrapper">
+                            <div class="group-list-carousel">
+
+                                @foreach (var item in Model.ProductViewModels)
+                                {
+
+                                    <div class="group-slide-item">
+                                        <div class="group-item">
+                                            <div class="group-item-thumb">
+                                                <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@item.Id">
+                                                    <img src="@item.GetProductsImages?.FirstOrDefault()?.ImageUrl" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="group-item-desc">
+                                                <h5 class="group-product-name">
+                                                    <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@item.Id">
+                                                        @item.Title
+                                                    </a>
+                                                </h5>
+                                                <div class="price-box">
+                                                    <span class="price-regular">@item.Price</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                }
+
+                            </div>
+                        </div>
+                        <!-- group list carousel start -->
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories-group-wrapper">
+                        <!-- section title start -->
+                        <div class="section-title-append">
+                            <h4>on-sale product</h4>
+                            <div class="slick-append"></div>
+                        </div>
+                        <!-- section title start -->
+                        <!-- group list carousel start -->
+                        <div class="group-list-item-wrapper">
+                            <div class="group-list-carousel">
+                                @foreach (var item in Model.ProductViewModels)
+                                {
+
+                                    <div class="group-slide-item">
+                                        <div class="group-item">
+                                            <div class="group-item-thumb">
+                                                <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@item.Id">
+                                                    <img src="@item.GetProductsImages?.FirstOrDefault()?.ImageUrl" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="group-item-desc">
+                                                <h5 class="group-product-name">
+                                                    <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@item.Id">
+                                                        @item.Title
+                                                    </a>
+                                                </h5>
+                                                <div class="price-box">
+                                                    <span class="price-regular">@item.Price</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                }
+                            </div>
+                        </div>
+                        <!-- group list carousel start -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- group product end -->
+    <!-- latest blog area start -->
+    <section class="latest-blog-area section-padding pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- section title start -->
+                    <div class="section-title text-center">
+                        <h2 class="title">latest blogs</h2>
+                        <p class="sub-title">There are latest blog posts</p>
+                    </div>
+                    <!-- section title start -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="blog-carousel-active slick-row-10 slick-arrow-style">
+
+                        @foreach (var item in Model.BlogViewModels)
+                        {
+                            <div class="blog-post-item">
+                                <figure class="blog-thumb">
+                                    <a asp-controller="Blog" asp-action="BlogDetails" asp-route-Id="@item.Id">
+                                        <img src="@item.GetBlogImageDtos?.FirstOrDefault()?.ImageUrl" alt="blog image">
+                                    </a>
+                                </figure>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p>@item.CreatedDate.ToString("dd/MM/yyyy") | <a asp-controller="Blog" asp-action="BlogDetails" asp-route-id="@item.Id">@item.Title</a></p>
+                                    </div>
+                                    <h5 class="blog-title">
+                                        <a asp-controller="Blog" asp-action="BlogDetails" asp-route-Id="@item.Id">@item.Description</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- latest blog area end -->
+    <!-- brand logo area start -->
+    <div class="brand-logo section-padding pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="brand-logo-carousel slick-row-10 slick-arrow-style">
+                        <!-- single brand start -->
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/1.png" alt="">
+                            </a>
+                        </div>
+                        <!-- single brand end -->
+                        <!-- single brand start -->
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/2.png" alt="">
+                            </a>
+                        </div>
+                        <!-- single brand end -->
+                        <!-- single brand start -->
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/3.png" alt="">
+                            </a>
+                        </div>
+                        <!-- single brand end -->
+                        <!-- single brand start -->
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/4.png" alt="">
+                            </a>
+                        </div>
+                        <!-- single brand end -->
+                        <!-- single brand start -->
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/5.png" alt="">
+                            </a>
+                        </div>
+                        <!-- single brand end -->
+                        <!-- single brand start -->
+                        <div class="brand-item">
+                            <a href="#">
+                                <img src="assets/img/brand/6.png" alt="">
+                            </a>
+                        </div>
+                        <!-- single brand end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brand logo area end -->
+</main>

@@ -1,0 +1,46 @@
+﻿@using Corona.MVC.ViewModel.Blog
+@model BlogCreateViewModel
+
+<h1>Create Blog</h1>
+
+<form id="updateForm" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div style="margin-top: 20px" class="form-group">
+        <input type="file" asp-for="CreateBlogImagesDto" class="form-control-file" multiple />
+    </div>
+    <button style="margin-top:18px" type="submit" class="btn btn-primary">Create</button>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#updateForm').on('submit', function (e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: 'https://localhost:7295/api/Blogs/CreateBlog',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function () {
+                    window.location.href = '@Url.Action("Index")';
+                },
+                error: function () {
+                    window.location.href = 'https://localhost:7186/Admin/Blog';
+                }
+            });
+        });
+    });
+</script>

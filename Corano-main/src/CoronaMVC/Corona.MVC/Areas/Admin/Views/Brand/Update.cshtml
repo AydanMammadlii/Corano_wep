@@ -1,0 +1,42 @@
+﻿@using Corona.MVC.ViewModel.Brand
+@model BrandViewModel
+
+@{
+    ViewData["Title"] = "Update Brand";
+}
+
+<h1>Update Brand</h1>
+
+<form id="updateForm" enctype="multipart/form-data">
+    <input asp-for="Id" type="hidden" />
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#updateForm').on('submit', function (event) {
+            event.preventDefault();
+
+            var formData = new FormData(this);
+            $.ajax({
+                url: 'https://localhost:7295/api/Brands/UpdateBrand',
+                type: 'PUT',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    window.location.href = 'https://localhost:7186/Admin/brand';
+                },
+                error: function () {
+                    alert('Error updating testimonial.');
+                }
+            });
+        });
+    });
+</script>
