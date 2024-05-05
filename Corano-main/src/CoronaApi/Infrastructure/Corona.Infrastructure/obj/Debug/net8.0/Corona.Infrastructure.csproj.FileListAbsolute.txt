@@ -33,3 +33,4 @@ C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Infrastructure\C
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Infrastructure\Corona.Infrastructure\obj\Debug\net8.0\refint\Corona.Infrastructure.dll
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Infrastructure\Corona.Infrastructure\obj\Debug\net8.0\Corona.Infrastructure.pdb
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Infrastructure\Corona.Infrastructure\obj\Debug\net8.0\ref\Corona.Infrastructure.dll
+C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Infrastructure\Corona.Infrastructure\obj\Debug\net8.0\Corona.Infrastructure.sourcelink.json

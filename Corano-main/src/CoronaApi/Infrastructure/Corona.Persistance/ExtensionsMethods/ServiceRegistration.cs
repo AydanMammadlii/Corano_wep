@@ -3,6 +3,7 @@ using Corona.Application.Validators.SliderValidators;
 using Corona.Domain.Entities;
 using Corona.Persistance.Context;
 using Corona.Persistance.Implementations.Services;
+using Corona.Persistance.MapperProfiles;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
@@ -48,7 +49,7 @@ public static class ServiceRegistration
 
 
         //Mapper
-        //services.AddAutoMapper(typeof(SliderProfile).Assembly);
+        services.AddAutoMapper(typeof(SliderProfile).Assembly);
 
 
         //Validator

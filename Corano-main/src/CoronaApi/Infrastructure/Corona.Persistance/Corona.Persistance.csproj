@@ -34,7 +34,6 @@
 
   <ItemGroup>
     <Folder Include="Implementations\Repositories\IEntityRepository\" />
-    <Folder Include="MapperProfiles\" />
   </ItemGroup>
 
 </Project>

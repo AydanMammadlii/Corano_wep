@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\mapperprofiles\\sliderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\mapperprofiles\\sliderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B115CE3-42D5-4C04-B524-D666EB34A09E}|src\\CoronaApi\\Core\\Corona.Application\\Corona.Application.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\core\\corona.application\\validators\\slidervalidators\\slidergetdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B115CE3-42D5-4C04-B524-D666EB34A09E}|src\\CoronaApi\\Core\\Corona.Application\\Corona.Application.csproj|solutionrelative:src\\coronaapi\\core\\corona.application\\validators\\slidervalidators\\slidergetdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B115CE3-42D5-4C04-B524-D666EB34A09E}|src\\CoronaApi\\Core\\Corona.Application\\Corona.Application.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\core\\corona.application\\validators\\slidervalidators\\sliderupdatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "SliderProfile.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\MapperProfiles\\SliderProfile.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\MapperProfiles\\SliderProfile.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\MapperProfiles\\SliderProfile.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\MapperProfiles\\SliderProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T12:15:03.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAQwDoAAAAFAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwDIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:09:35.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SliderUpdateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderUpdateDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderUpdateDtoValidator.cs",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderUpdateDtoValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:09:02.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T12:09:02.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "SliderGetDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderGetDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderGetDtoValidator.cs",
@@ -76,12 +92,11 @@
               "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderGetDtoValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:08:58.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T12:08:58.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SliderCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderCreateDtoValidator.cs",
@@ -89,12 +104,11 @@
               "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Application\\Validators\\SliderValidators\\SliderCreateDtoValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:08:51.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T12:08:51.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Slider.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Slider.cs",
@@ -102,12 +116,11 @@
               "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Slider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T12:07:33.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T12:07:33.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
@@ -120,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SliderConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Configurations\\SliderConfiguration.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Configurations\\SliderConfiguration.cs",
@@ -128,8 +141,7 @@
               "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Configurations\\SliderConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T11:57:49.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T11:57:49.991Z"
             }
           ]
         }

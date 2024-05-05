@@ -29,3 +29,4 @@ C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Appl
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Application\obj\Debug\net8.0\refint\Corona.Application.dll
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Application\obj\Debug\net8.0\Corona.Application.pdb
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Application\obj\Debug\net8.0\ref\Corona.Application.dll
+C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Application\obj\Debug\net8.0\Corona.Application.sourcelink.json
