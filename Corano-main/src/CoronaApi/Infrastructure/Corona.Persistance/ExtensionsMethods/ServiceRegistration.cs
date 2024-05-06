@@ -17,7 +17,6 @@ namespace Corona.Persistance.ExtensionsMethods;
 
 public static class ServiceRegistration
 {
-
     public static void AddPersistenceServices(this IServiceCollection services)
     {
         services.AddDbContext<AppDbContext>(options =>
@@ -32,6 +31,7 @@ public static class ServiceRegistration
 
         //Service
         services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<ISliderServices, SliderServices>();
 
 
         //User
