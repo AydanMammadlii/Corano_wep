@@ -63,11 +63,13 @@ public static class ServiceRegistration
     private static void AddReadRepositories(this IServiceCollection services)
     {
         services.AddScoped<ISliderReadRepository, SliderReadRepository>();
+        services.AddScoped<ITestimonialReadRepository, TestimonialReadRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
     {
         services.AddScoped<ISliderWriteRepository, SliderWriteRepository>();
+        services.AddScoped<ITestimonialWriteRepository, TestimonialWriteRepository>();
     }
 
 }
