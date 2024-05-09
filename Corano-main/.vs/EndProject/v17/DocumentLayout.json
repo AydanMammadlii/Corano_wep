@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\core\\corona.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|solutionrelative:src\\coronaapi\\core\\corona.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\core\\corona.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|solutionrelative:src\\coronaapi\\core\\corona.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\core\\corona.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|solutionrelative:src\\coronaapi\\core\\corona.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\core\\corona.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAEA662F-AAD6-4050-931F-FF5D9A05E2DC}|src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj|solutionrelative:src\\coronaapi\\core\\corona.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -30,72 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCEAAAA+AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:09:35.063Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Basket.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Basket.cs",
-              "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Basket.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Basket.cs",
-              "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Basket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T12:56:47.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBEAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T12:54:19.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T12:53:58.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Brand.cs",
-              "RelativeDocumentMoniker": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Brand.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Brand.cs",
-              "RelativeToolTip": "src\\CoronaApi\\Core\\Corona.Domain\\Entities\\Brand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T12:53:38.537Z",
               "EditorCaption": ""
             }
           ]
