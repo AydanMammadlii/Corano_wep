@@ -65,12 +65,16 @@ public static class ServiceRegistration
     {
         services.AddScoped<ISliderReadRepository, SliderReadRepository>();
         services.AddScoped<ITestimonialReadRepository, TestimonialReadRepository>();
+        services.AddScoped<IBrandReadRepository, BrandReadRepository>();
+        services.AddScoped<ICategoryReadRepository, CategoryReadRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
     {
         services.AddScoped<ISliderWriteRepository, SliderWriteRepository>();
         services.AddScoped<ITestimonialWriteRepository, TestimonialWriteRepository>();
+        services.AddScoped<IBrandWriteRepository, BrandWriteRepository>();
+        services.AddScoped<ICategoryWriteRepository, CategoryWriteRepository>();
     }
 
 }
