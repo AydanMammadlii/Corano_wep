@@ -33,6 +33,7 @@ public static class ServiceRegistration
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<ISliderServices, SliderServices>();
         services.AddScoped<ITestimonialService, TestimonialService>();
+        services.AddScoped<ICategoryService, CategoryService>();
 
 
         //User
