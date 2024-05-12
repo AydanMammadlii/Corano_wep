@@ -34,6 +34,7 @@ public static class ServiceRegistration
         services.AddScoped<ISliderServices, SliderServices>();
         services.AddScoped<ITestimonialService, TestimonialService>();
         services.AddScoped<ICategoryService, CategoryService>();
+        services.AddScoped<IBrandService, BrandService>();
 
 
         //User
