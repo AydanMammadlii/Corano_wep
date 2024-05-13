@@ -69,6 +69,7 @@ public static class ServiceRegistration
         services.AddScoped<ITestimonialReadRepository, TestimonialReadRepository>();
         services.AddScoped<IBrandReadRepository, BrandReadRepository>();
         services.AddScoped<ICategoryReadRepository, CategoryReadRepository>();
+        services.AddScoped<IProductTypeReadRepository, ProductTypeReadRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
@@ -77,6 +78,7 @@ public static class ServiceRegistration
         services.AddScoped<ITestimonialWriteRepository, TestimonialWriteRepository>();
         services.AddScoped<IBrandWriteRepository, BrandWriteRepository>();
         services.AddScoped<ICategoryWriteRepository, CategoryWriteRepository>();
+        services.AddScoped<IProductTypeWriteRepository, ProductTypeWriteRepository>();
     }
 
 }
