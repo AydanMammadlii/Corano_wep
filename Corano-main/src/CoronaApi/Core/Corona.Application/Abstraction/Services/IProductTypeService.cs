@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Corona.Application.DTOs.Brands;
+using Corona.Application.DTOs.ProductTypes;
 
-namespace Corona.Application.Abstraction.Services
+namespace Corona.Application.Abstraction.Services;
+
+public interface IProductTypeService
 {
-    internal class IProductTypeService
-    {
-    }
+    Task<List<GetProductTypeDto>> GetAllAsync();
+    Task CreateAsync(CreateProductTypeDto createProductTypeDto);
+    Task<GetProductTypeDto> GetByIdAsync(Guid Id);
+    Task UpdateAsync(UpdateProductTypeDto updateProductTypeDto);
+    Task RemoveAsync(Guid Id);
 }

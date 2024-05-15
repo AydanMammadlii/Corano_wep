@@ -35,6 +35,7 @@ public static class ServiceRegistration
         services.AddScoped<ITestimonialService, TestimonialService>();
         services.AddScoped<ICategoryService, CategoryService>();
         services.AddScoped<IBrandService, BrandService>();
+        services.AddScoped<IProductTypeService, ProductTypeService>();
 
 
         //User
