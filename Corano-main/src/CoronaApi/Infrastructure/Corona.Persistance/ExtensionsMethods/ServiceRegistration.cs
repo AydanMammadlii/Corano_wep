@@ -39,7 +39,7 @@ public static class ServiceRegistration
 
 
         //User
-        services.AddIdentity<AppUser, IdentityRole>(Options =>
+        services.AddIdentity<AppUser, IdentityRole>(Options =>  
         {
             Options.User.RequireUniqueEmail = true;
             Options.Password.RequireNonAlphanumeric = true;
