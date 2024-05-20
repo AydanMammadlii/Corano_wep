@@ -37,6 +37,7 @@ public static class ServiceRegistration
         services.AddScoped<IBrandService, BrandService>();
         services.AddScoped<IProductTypeService, ProductTypeService>();
         services.AddScoped<IProductService, ProductService>();
+        services.AddScoped<IBasketProductService, BasketProductService>();
 
 
         //User

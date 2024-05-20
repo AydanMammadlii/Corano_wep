@@ -10,4 +10,6 @@ public class AppUser:IdentityUser
     public byte[]? ImagePath { get; set; }
     public DateTime RefreshTokenExpration { get; set; }
     public string? RefreshToken { get; set; }
+    public Basket? Basket { get; set; }
+    public Wishlist? Wishlist { get; set; }
 }
