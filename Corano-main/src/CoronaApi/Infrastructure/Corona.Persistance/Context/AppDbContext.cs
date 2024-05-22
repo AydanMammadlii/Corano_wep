@@ -28,6 +28,9 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<BasketProduct> BasketProducts { get; set; }
     public DbSet<Wishlist> Wishlists { get; set; }
     public DbSet<WishlistProduct> WishlistProducts { get; set; }
+    public DbSet<Blog> Blogs { get; set; }
+    public DbSet<BlogImage> BlogImages { get; set; }
+    public DbSet<Comment> Comments { get; set; }
 
 
     public DbSet<Movie> Movies { get; set; }
