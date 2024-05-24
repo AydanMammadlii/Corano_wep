@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCsAAAAOAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAQwFoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:09:35.063Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
               "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAzwBoAAAAuAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAABoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T18:14:10.355Z",
               "IsPinned": true,
