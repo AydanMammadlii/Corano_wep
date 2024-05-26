@@ -78,6 +78,7 @@ public static class ServiceRegistration
         services.AddScoped<IBasketProductReadRepository, BasketProductReadRepository>();
         services.AddScoped<IWishlistProductReadRepository, WishlistProductReadRepository>();
         services.AddScoped<IBlogReadRepository, BlogReadRepository>();
+        services.AddScoped<ICommentReadRepository, ICommentReadRepository>();
     }
 
     private static void AddWriteRepositories(this IServiceCollection services) 
@@ -90,6 +91,7 @@ public static class ServiceRegistration
         services.AddScoped<IBasketProductWriteRepository, BasketProductWriteRepository>();
         services.AddScoped<IWishlistProductWriteRepository, WishlistProductWriteRepository>();
         services.AddScoped<IBlogWriteRepository, BlogWriteRepository>();
+        services.AddScoped<ICommentWriteRepository, CommentWriteRepository>();
     }
 
 }
