@@ -40,6 +40,7 @@ public static class ServiceRegistration
         services.AddScoped<IBasketProductService, BasketProductService>();
         services.AddScoped<IWishlistProductService, WishlistProductService>();
         services.AddScoped<IBlogService, BlogService>();
+        services.AddScoped<ICommentService, CommentService>();
 
 
         //User

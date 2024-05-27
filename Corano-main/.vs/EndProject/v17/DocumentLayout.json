@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\implementations\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\implementations\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\implementations\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\implementations\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\extensionsmethods\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
               "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\ExtensionsMethods\\ServiceRegistration.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAQwF0AAAA0AAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDUAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T12:09:35.063Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\ProductService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:13:39.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\CommentService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\CommentService.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\CommentService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:12:40.567Z",
               "EditorCaption": ""
             }
           ]
