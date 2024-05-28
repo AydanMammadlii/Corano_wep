@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Corona.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+294812bc93b84761fe7d9a70851cab883588342a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc0fbb23abcc85bac6faacc36b5310b8914673b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Corona.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Corona.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
