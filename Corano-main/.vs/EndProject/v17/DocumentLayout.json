@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\presentation\\corona.api\\controllers\\wishlistproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|solutionrelative:src\\coronaapi\\presentation\\corona.api\\controllers\\wishlistproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WishlistProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAxwCcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:40:41.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
