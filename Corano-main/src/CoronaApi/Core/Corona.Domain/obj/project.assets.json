@@ -2186,11 +2186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj",
       "projectName": "Corona.Domain",
-      "projectPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj",
+      "projectPath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\Corona.Domain.csproj",
       "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\obj\\",
+      "outputPath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaApi\\Core\\Corona.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",

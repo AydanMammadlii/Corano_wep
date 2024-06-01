@@ -18,9 +18,4 @@
     <ProjectReference Include="..\..\CoronaApi\Infrastructure\Corona.Persistance\Corona.Persistance.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
-
 </Project>

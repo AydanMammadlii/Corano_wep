@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TI/2rQ3UqFg=",
+  "dgSpecHash": "eqmrJ+6OQXE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Infrastructure\\Corona.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Infrastructure\\Corona.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LEGION\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\LEGION\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",

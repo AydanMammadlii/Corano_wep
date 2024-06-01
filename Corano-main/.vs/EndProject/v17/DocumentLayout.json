@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\",
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronaapi\\presentation\\corona.api\\controllers\\wishlistproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|solutionrelative:src\\coronaapi\\presentation\\corona.api\\controllers\\wishlistproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\desktop\\corano_wep\\corano-main\\src\\coronamvc\\corona.mvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WishlistProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
-              "RelativeToolTip": "src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\WishlistProductsController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAxwCcAAAABAAAA",
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwD0AAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T07:40:41.826Z",
+              "WhenOpened": "2024-06-01T21:40:53.703Z",
               "EditorCaption": ""
             }
           ]

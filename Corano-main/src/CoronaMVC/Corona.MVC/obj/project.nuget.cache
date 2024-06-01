@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fgFzbFnN3Ps=",
+  "dgSpecHash": "GnGupDmh+CA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj",
+  "projectFilePath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LEGION\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\LEGION\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
