@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\areas\\admin\\controllers\\producttypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\desktop\\corano_wep\\corano-main\\src\\coronamvc\\corona.mvc\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\areas\\admin\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\desktop\\corano_wep\\corano-main\\src\\coronamvc\\corona.mvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T01:04:14.992Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,14 +57,14 @@
               "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\ProductTypeController.cs",
               "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\ProductTypeController.cs",
               "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\ProductTypeController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwCsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T01:02:55.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\ProductController.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAwCEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T09:37:02.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T09:37:02.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\BrandController.cs",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
