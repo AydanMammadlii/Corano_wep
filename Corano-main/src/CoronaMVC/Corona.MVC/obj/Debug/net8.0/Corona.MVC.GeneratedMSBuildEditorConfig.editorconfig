@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\LEGION\Desktop\Corano_wep\Corano-main\src\CoronaMVC\Corona.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/LEGION/Desktop/Corano_wep/Corano-main/src/CoronaMVC/Corona.MVC/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LEGION/Desktop/Corano_wep/Corano-main/src/CoronaMVC/Corona.MVC/Areas/Admin/Views/Admin/IndexAllAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXhBbGxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/LEGION/Desktop/Corano_wep/Corano-main/src/CoronaMVC/Corona.MVC/Areas/Admin/Views/Blog/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
