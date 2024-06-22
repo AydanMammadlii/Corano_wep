@@ -6102,11 +6102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj",
+      "projectUniqueName": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj",
       "projectName": "Corona.API",
-      "projectPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj",
+      "projectPath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj",
       "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\obj\\",
+      "outputPath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6124,8 +6124,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj": {
-              "projectPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj"
+            "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj": {
+              "projectPath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj"
             }
           }
         }

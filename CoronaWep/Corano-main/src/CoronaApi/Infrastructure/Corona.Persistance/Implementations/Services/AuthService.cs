@@ -103,12 +103,38 @@ public class AuthService : IAuthService
     }
     public async Task<TokenResponseDTO> Login(LoginDTO loginDTO)
     {
+
         AppUser appUser = await _userManager.FindByEmailAsync(loginDTO.UsernameOrEmail);
         if (appUser is null)
         {
             appUser = await _userManager.FindByNameAsync(loginDTO.UsernameOrEmail);
             if (appUser is null) throw new LogInFailerException("Invalid Login!");
 
+        }
+        var appUserWishlistAndBasket = await _context.AppUsers
+                                 .Include(x => x.Basket)
+                                 .Include(x => x.Wishlist)
+                                 .FirstOrDefaultAsync(x => x.Id == appUser.Id);
+        if (loginDTO.UsernameOrEmail == "aydan@code.edu.az" && loginDTO.password == "Admin123!")
+        {
+            if (appUserWishlistAndBasket.Wishlist is null)
+            {
+                var wishlist = new Wishlist()
+                {
+                    AppUserId = appUser.Id
+                };
+                await _context.Wishlists.AddAsync(wishlist);
+                await _context.SaveChangesAsync();
+            }
+            if (appUserWishlistAndBasket.Basket is null)
+            {
+                var myBasket = new Basket()
+                {
+                    AppUserId = appUser.Id
+                };
+                await _context.Baskets.AddAsync(myBasket);
+                await _context.SaveChangesAsync();
+            }
         }
 
         SignInResult signInResult = await _siginManager.CheckPasswordSignInAsync(appUser, loginDTO.password, true);
@@ -124,10 +150,6 @@ public class AuthService : IAuthService
         appUser.RefreshTokenExpration = tokenRespons.refreshTokenExpration;
         await _userManager.UpdateAsync(appUser);
 
-        var appUserWishlistAndBasket = await _context.AppUsers
-                                        .Include(x => x.Basket)
-                                        .Include(x => x.Wishlist)
-                                        .FirstOrDefaultAsync(x => x.Id == appUser.Id);
 
         return tokenRespons;
     }

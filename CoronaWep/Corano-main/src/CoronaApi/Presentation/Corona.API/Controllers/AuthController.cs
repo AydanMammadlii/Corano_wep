@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Corona.Application.Abstraction.Services;
+﻿using Corona.Application.Abstraction.Services;
 using Corona.Application.DTOs.Auth;
+using Corona.Domain.Entities;
 using Corona.Domain.Helpers;
 using Corona.Persistance.Context;
-using Corona.Domain.Entities;
+using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using Microsoft.EntityFrameworkCore;
 
 namespace Corona.API.Controllers;
 

@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\",
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronamvc\\corona.mvc\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\desktop\\corano_wep\\coronawep\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\implementations\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\implementations\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronamvc\\corona.mvc\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|c:\\users\\legion\\desktop\\corano_wep\\coronawep\\corano-main\\src\\coronaapi\\presentation\\corona.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|solutionrelative:src\\coronaapi\\presentation\\corona.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronamvc\\corona.mvc\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\desktop\\corano_wep\\coronawep\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronamvc\\corona.mvc\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|c:\\users\\legion\\desktop\\corano_wep\\coronawep\\corano-main\\src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BDEAB9-2FD5-47F7-8E06-AF082BED6552}|src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Corona.Persistance.csproj|solutionrelative:src\\coronaapi\\infrastructure\\corona.persistance\\context\\appdbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronamvc\\corona.mvc\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|c:\\users\\legion\\desktop\\corano_wep\\coronawep\\corano-main\\src\\coronaapi\\presentation\\corona.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|solutionrelative:src\\coronaapi\\presentation\\corona.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronamvc\\corona.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|c:\\users\\legion\\downloads\\corano-main\\corano-main\\src\\coronamvc\\corona.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D955EDD2-19A3-46F0-B833-1E20C94CF5FD}|src\\CoronaMVC\\Corona.MVC\\Corona.MVC.csproj|solutionrelative:src\\coronamvc\\corona.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|c:\\users\\legion\\desktop\\corano_wep\\coronawep\\corano-main\\src\\coronaapi\\presentation\\corona.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FF590C7-314B-453B-9B89-0E6AD2455DD1}|src\\CoronaApi\\Presentation\\Corona.API\\Corona.API.csproj|solutionrelative:src\\coronaapi\\presentation\\corona.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,89 +38,81 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WishlistController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\WishlistController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Controllers\\WishlistController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\WishlistController.cs",
-              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Controllers\\WishlistController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Presentation\\Corona.API\\Program.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Program.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Presentation\\Corona.API\\Program.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T20:33:41.506Z",
+              "WhenOpened": "2024-06-22T21:57:11.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContextInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContextInitializer.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContextInitializer.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContextInitializer.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContextInitializer.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:55:07.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Controllers\\ShopController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAwFoAAAAAAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwBUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:19:29.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:19:26.586Z"
+              "WhenOpened": "2024-06-22T21:55:03.032Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Controllers\\BasketController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwCIAAAAJAAAA",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Infrastructure\\Corona.Persistance\\Implementations\\Services\\AuthService.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAiwIEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:19:24.209Z",
+              "WhenOpened": "2024-06-22T21:52:52.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Controllers\\BlogController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Controllers\\BlogController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAwEEAAAAAAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\CoronaApi\\Presentation\\Corona.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:19:20.502Z"
+              "WhenOpened": "2024-06-22T21:52:45.956Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:19:15.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "src\\CoronaMVC\\Corona.MVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Corano-main\\Corano-main\\src\\CoronaMVC\\Corona.MVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "src\\CoronaMVC\\Corona.MVC\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAwEgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T20:11:48.736Z"
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\CoronaApi\\Presentation\\Corona.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\Corano_wep\\CoronaWep\\Corano-main\\src\\CoronaApi\\Presentation\\Corona.API\\appsettings.json",
+              "RelativeToolTip": "src\\CoronaApi\\Presentation\\Corona.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T21:29:16.144Z",
+              "EditorCaption": ""
             }
           ]
         }

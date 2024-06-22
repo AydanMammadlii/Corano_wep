@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Corona.Application
-build_property.ProjectDir = C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Application\
+build_property.ProjectDir = C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

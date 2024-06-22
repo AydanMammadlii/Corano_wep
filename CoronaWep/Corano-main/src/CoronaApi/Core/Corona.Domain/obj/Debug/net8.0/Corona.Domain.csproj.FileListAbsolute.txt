@@ -24,3 +24,16 @@ C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Doma
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.pdb
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\ref\Corona.Domain.dll
 C:\Users\LEGION\Downloads\Corano-main\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.sourcelink.json
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\bin\Debug\net8.0\Corona.Domain.deps.json
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\bin\Debug\net8.0\Corona.Domain.dll
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\bin\Debug\net8.0\Corona.Domain.pdb
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.csproj.AssemblyReference.cache
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.AssemblyInfoInputs.cache
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.AssemblyInfo.cs
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.sourcelink.json
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.dll
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\refint\Corona.Domain.dll
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\Corona.Domain.pdb
+C:\Users\LEGION\Desktop\Corano_wep\CoronaWep\Corano-main\src\CoronaApi\Core\Corona.Domain\obj\Debug\net8.0\ref\Corona.Domain.dll

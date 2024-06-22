@@ -49,28 +49,5 @@ public class AppDbContextInitializer
         };
         await _userManager.CreateAsync(appUser, _configuration["SuperAdminSettings:password"]);  //error bu derse baxs
         await _userManager.AddToRoleAsync(appUser, Role.SuperAdmin.ToString());
-
-        //var appUserWishlistAndBasket = await _context.AppUsers
-        //                         .Include(x => x.Basket)
-        //                         .Include(x => x.Wishlist)
-        //                         .FirstOrDefaultAsync(x => x.Id == appUser.Id);
-
-        //if (appUserWishlistAndBasket.Wishlist is null)
-        //{
-        //    var wishlist = new Wishlist()
-        //    {
-        //        AppUserId = appUser.Id
-        //    };
-        //    await _context.Wishlists.AddAsync(wishlist);
-        //}
-        //if (appUserWishlistAndBasket.Basket is null)
-        //{
-        //    var myBasket = new Basket()
-        //    {
-        //        AppUserId = appUser.Id
-        //    };
-        //    await _context.Baskets.AddAsync(myBasket);
-        //}
-        //await _context.SaveChangesAsync();
     }
 }
